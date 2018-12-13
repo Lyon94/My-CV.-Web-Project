@@ -1,0 +1,120 @@
+
+body {
+  background-color: grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  margin: 0;
+}
+h4 {
+  color: blue;
+  font-size: 120%;
+}
+h1 {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#header {
+  background-color: brown;
+  margin: 20px;
+  border-radius: 10px;
+  height: 90px;
+}
+#navbar ul {
+  background-color: black;
+  height: 30px;
+  margin: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  list-style-type: none;
+}
+#navbar ul li {
+  display: inline;
+  vertical-align: middle;
+  margin: 50px;
+  text-decoration: none;
+}
+#navbar ul li a {
+  text-decoration: none;
+}
+#navbar ul li a:hover {
+  background-color: #fff;
+  color: black;
+}
+#picture {
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+float: left;
+width: 270px;
+clear: left;
+opacity: 1;
+transition: opacity 0.4s ease-in-out;
+}
+#picture:hover {
+  opacity: 0.6;
+}
+#footer {
+  background-color: lightgreen ;
+  margin: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  list-style-type: none;
+}
+#footer ul li {
+  display: inline;
+}
+#footer ul li a {
+  text-decoration: none;
+  margin: 50px;
+}
+#footer ul li a:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.main {
+  margin-right: 20px;
+  margin-left: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+background-color: rgb(218, 212, 226);
+border-radius: 10px;
+font-size: 110%;
+}
+.leftpole {
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding: 10px;
+background-color: rgb(218, 212, 226);
+border-radius: 10px;
+font-size: 90%;
+float: left;
+width: 250px;
+clear: left;
+}
+.footer {
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+background-color: rgb(218, 212, 226);
+border-radius: 10px;
+font-size: 90%;
+text-align: center; 
+}
+
