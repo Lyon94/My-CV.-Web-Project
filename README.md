@@ -1,2 +1,6 @@
 # My-CV.-Web-Project
-This is a project to create my Curriculum Vitae in a web page format
+
+Hello There!
+This is a project where I created my Curriculum Vitae in a web page format.
+
+Thanks for checking.
